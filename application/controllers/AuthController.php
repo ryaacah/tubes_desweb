@@ -5,7 +5,12 @@ class AuthController extends CI_Controller {
 
 	function __construct(){
 		parent::__construct();		
-		$this->load->model('AuthModel');
+		$this->load->model('UserModel');
+	}
+
+	public function index()
+	{
+    $this->load->view('v_login');
 	}
 
 	public function login()
@@ -13,7 +18,7 @@ class AuthController extends CI_Controller {
 		$email = $this->input->post('email');
 		$password = $this->input->post('password');
 
-		$data['res'] = $this->AuthModel->checkAuth($email);
+		$data['res'] = $this->UserModel->checkAuth($email);
 
 		if (!$data['res']) {
 
@@ -22,37 +27,21 @@ class AuthController extends CI_Controller {
 
 		}else{
 			if (password_verify($password, $data['res'][0]['password'])) {
-				$data = $data['res'][0];
+				$dataAdmin = $data['res'][0];
 	
-				$this->session->set_userdata('login_data_admin_hr_user', $data);
-				$this->session->set_userdata('isLoggedIn_admin_hr_user', true);
-				$this->session->set_flashdata('success', 'Login Berhasil!');
-				redirect(base_url());
+				$this->session->set_userdata('login_data_admin_hr', $dataAdmin);
+				$this->session->set_userdata('isLoggedIn_admin_hr', true);
+				redirect(base_url('dashboard'));
 			} else {
 				$this->session->set_flashdata('error', 'Password Anda Salah!');
-				redirect(base_url());
+				redirect(base_url() . 'login');
 			}
 		}
-	}
-
-	public function signup(){
-		$data = array(
-			'nama' => $this->input->post('nama'),
-			'role' => 'pengguna',
-			'email' => $this->input->post('email'),
-			'password' => password_hash($this->input->post('password'), PASSWORD_DEFAULT),
-		);
-
-		$this->AuthModel->add($data);
-		$this->session->set_userdata('login_data_admin_hr_user', $data);
-		$this->session->set_userdata('isLoggedIn_admin_hr_user', true);
-		$this->session->set_flashdata('success', 'Signup Berhasil!');
-    redirect(base_url());
 	}
 
 	public function logout()
 	{
 			session_destroy();
-			redirect(base_url());
+			redirect(base_url() . 'login');
 	}
 }

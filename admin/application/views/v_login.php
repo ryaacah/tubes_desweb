@@ -61,7 +61,7 @@
       top: 50px;
       background: #777;
       border-radius: 50%;
-      color: white;
+      color: black;
       box-shadow: 10px 8px 5px 0px rgba(0, 0, 0, 0.6);
     }
 

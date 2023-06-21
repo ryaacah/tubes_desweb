@@ -101,7 +101,7 @@
       width: 0;
       height: 0;
       border: 62px solid transparent;
-      border-left-color: #777;
+      border-left-color: #000;
       border-right: 0;
       border-bottom: 0;
       margin-top: -21px;

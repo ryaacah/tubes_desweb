@@ -86,13 +86,13 @@
   
   .back-to-top i {
     font-size: 24px;
-    color: #37332a;
+    color: #625b4b;
     line-height: 0;
   }
   
   .back-to-top:hover {
     background: #6776f4;
-    color: #37332a;
+    color: #625b4b;
   }
   
   .back-to-top.active {
@@ -156,7 +156,7 @@
       content: "";
       width: 13px;
       height: 13px;
-      background: #37332a;
+      background: #625b4b;
       position: absolute;
       top: -7px;
       right: 20px;
@@ -202,8 +202,8 @@
   }
   
   .bg-warning-light {
-    background-color: #37332a3cd;
-    border-color: #37332a3cd;
+    background-color: #625b4b3cd;
+    border-color: #625b4b3cd;
   }
   
   .bg-info-light {
@@ -227,7 +227,7 @@
   .card-header,
   .card-footer {
     border-color: #ebeef4;
-    background-color: #37332a;
+    background-color: #625b4b;
     /* color: #798eb3; */
     color: #1a1814;
     padding: 15px;
@@ -347,7 +347,7 @@
   }
   
   .nav-tabs-bordered .nav-link.active {
-    background-color: #37332a;
+    background-color: #625b4b;
     color: #1a1814;
     border-bottom: 2px solid #1a1814;
   }
@@ -382,7 +382,7 @@
     z-index: 997;
     height: 60px;
     box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
-    background-color: #37332a;
+    background-color: #625b4b;
     padding-left: 20px;
     /* Toggle Sidebar Button */
     /* Search Bar */
@@ -611,7 +611,7 @@
     scrollbar-width: thin;
     scrollbar-color: #1a1814 transparent;
     box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
-    background-color: #37332a;
+    background-color: #625b4b;
   }
   
   @media (max-width: 1199px) {
@@ -623,7 +623,7 @@
   .sidebar::-webkit-scrollbar {
     width: 5px;
     height: 8px;
-    background-color: #37332a;
+    background-color: #625b4b;
   }
   
   .sidebar::-webkit-scrollbar-thumb {
@@ -700,7 +700,7 @@
   
   .sidebar-nav .nav-link.collapsed {
     color: #1a1814;
-    background: #37332a;
+    background: #625b4b;
   }
   
   .sidebar-nav .nav-link.collapsed i {
@@ -823,12 +823,12 @@
   
   .dashboard .sales-card .card-icon {
     color: #1a1814;
-    background: #37332a;
+    background: #625b4b;
   }
   
   .dashboard .revenue-card .card-icon {
     color: #1a1814;
-    background: #37332a;
+    background: #625b4b;
   }
   
   .dashboard .customers-card .card-icon {
@@ -856,7 +856,7 @@
     width: 4px;
     top: 0;
     bottom: 0;
-    background-color: #37332a;
+    background-color: #625b4b;
   }
   
   .dashboard .activity .activity-item .activity-badge {
@@ -866,7 +866,7 @@
     line-height: 0;
     border-radius: 50%;
     flex-shrink: 0;
-    border: 3px solid #37332a;
+    border: 3px solid #625b4b;
     flex-grow: 0;
   }
   
@@ -922,7 +922,7 @@
   }
   
   .dashboard .recent-sales .table thead {
-    background: #37332a;
+    background: #625b4b;
   }
   
   .dashboard .recent-sales .table thead th {
@@ -943,7 +943,7 @@
   }
   
   .dashboard .top-selling .table thead {
-    background: #37332a;
+    background: #625b4b;
   }
   
   .dashboard .top-selling .table thead th {
@@ -971,7 +971,7 @@
   }
   
   .iconslist .icon {
-    background-color: #37332a;
+    background-color: #625b4b;
     border-radius: 0.25rem;
     text-align: center;
     color: #1a1814;
@@ -1091,7 +1091,7 @@
   
   .contact .php-email-form .error-message {
     display: none;
-    color: #37332a;
+    color: #625b4b;
     background: #ed3c0d;
     text-align: left;
     padding: 15px;
@@ -1101,8 +1101,8 @@
   
   .contact .php-email-form .sent-message {
     display: none;
-    color: #37332a;
-    background: #18d26e;
+    color: #625b4b;
+    background: #cda45e;
     text-align: center;
     padding: 15px;
     margin-bottom: 24px;
@@ -1111,7 +1111,7 @@
   
   .contact .php-email-form .loading {
     display: none;
-    background: #37332a;
+    background: #625b4b;
     text-align: center;
     padding: 15px;
     margin-bottom: 24px;
@@ -1124,7 +1124,7 @@
     width: 24px;
     height: 24px;
     margin: 0 10px -6px 0;
-    border: 3px solid #18d26e;
+    border: 3px solid #cda45e;
     border-top-color: #eee;
     animation: animate-loading 1s linear infinite;
   }
@@ -1154,7 +1154,7 @@
     background: #1a1814;
     border: 0;
     padding: 10px 30px;
-    color: #37332a;
+    color: #625b4b;
     transition: 0.4s;
     border-radius: 4px;
   }
@@ -1197,7 +1197,7 @@
   
   .error-404 .btn {
     background: #51678f;
-    color: #37332a;
+    color: #625b4b;
     padding: 8px 30px;
   }
   
@@ -1218,7 +1218,7 @@
     padding: 20px 0;
     font-size: 14px;
     transition: all 0.3s;
-    border-top: 1px solid #cdd37332a;
+    border-top: 1px solid #cdd625b4b;
   }
   
   .footer .copyright {

@@ -61,6 +61,7 @@
     </script>
   <?php }
 ?>
+<!--End Alert Error -->
 
 <!-- Alert Success -->
 <?php
@@ -85,28 +86,9 @@
     </script>
   <?php }
 ?>
+<!--End Alert Success -->
 
 <body>
-
-  <!-- ======= Top Bar ======= -->
-  <div id="topbar" class="d-flex align-items-center fixed-top">
-    <div class="container d-flex justify-content-center justify-content-md-between">
-
-      <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-phone d-flex align-items-center"><span>+1 5589 55488 55</span></i>
-        <i class="bi bi-clock d-flex align-items-center ms-4"><span> Mon-Sat: 11AM - 23PM</span></i>
-      </div>
-
-      <div class="languages d-none d-md-flex align-items-center">
-        <ul>
-          <li>En</li>
-          <li><a href="#">De</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  </div>
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-cente">
@@ -114,20 +96,20 @@
 
       <!-- <h1 class="logo me-auto me-lg-0"><a href="index.html">Hallynime Retreat</a></h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="home.php" class="logo me-auto me-lg-0"><img src="<?= base_url() ?>assets/img/logo.png" alt="" class="img-fluid"></a>
+      <a  class="logo me-auto me-lg-0"><img src="<?= base_url() ?>assets/img/logo.png" alt="" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="#home">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#menu">Room</a></li>
-          <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
           <li class="dropdown"><a href="#"><span>Menu</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
             <li><a class="nav-link scrollto" href="#menu">Room</a></li>
             <li><a class="nav-link scrollto" href="#events">Events</a></li>
             <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
           </ul>
+          <li><a class="nav-link scrollto" href="#menu">Room</a></li>
+          <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
         </li>
         <li><a class="nav-link scrollto" href="<?php echo site_url ('admin');?>">Admin</a></li>
         <?php if(!$this->session->userdata('isLoggedIn_admin_hr_user')): ?>
@@ -297,7 +279,6 @@
   </section><!-- End Hero -->
 
   <main id="main">
-
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
@@ -831,7 +812,7 @@
 
           </div>
 
-          <div class="col-lg-8 mt-5 mt-lg-0">
+          <!-- <div class="col-lg-8 mt-5 mt-lg-0">
 
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
@@ -856,7 +837,7 @@
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
 
-          </div>
+          </div> -->
 
         </div>
 

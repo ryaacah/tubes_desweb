@@ -132,7 +132,7 @@
   <aside class="main-sidebar sidebar-dark-success elevation-4">
     <!-- Brand Logo -->
     <a href="<?= base_url("dashboard")?>" class="brand-link text-center">
-      <span class="font-weight-light">HR</span>
+      <span class="font-weight-light">Hallynime Retreat</span>
     </a>
 
     <!-- Sidebar -->

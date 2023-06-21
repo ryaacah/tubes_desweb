@@ -80,7 +80,7 @@
       border-radius: 5px;
       box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
       background: #dc3545;
-      color: white;
+      color: black;
       border: 0;
       margin-left: 45px;
       padding: 3px 20px;
@@ -88,7 +88,7 @@
     }
 
     .speech-bubble>a:hover {
-      background: white;
+      background: black;
       color: #dc3545;
       border: 2px solid #dc3545;
     }

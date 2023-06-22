@@ -72,31 +72,6 @@
                                 <label for="">Email :</label>
                                 <input type="email" name="email" class="form-control" autocomplete="off" placeholder="Masukkan Email" required value="<?= $row['email'] ?>">
                               </div>
-                              <!-- <div class="form-group ">
-                                <label for="">Ubah Password :</label>
-                                <div class="input-group">
-                                  <input type="password" id="passwordEdit<?= $row['id'] ?>" name="password" class="form-control" autocomplete="off" placeholder="Masukkan Password">
-                                  <div class="input-group-append">
-                                    <div class="input-group-text">
-                                      <script>
-                                          function pswVisibiltyEdit(id){
-                                            var x = document.getElementById(`passwordEdit${id}`);
-                                            if (x.type === "password") {
-                                              x.type = "text";
-                                            } else {
-                                              x.type = "password";
-                                            }
-                                          }
-                                      </script>
-                                      <span class="fas fa-eye" onclick="pswVisibiltyEdit(<?= $row['id'] ?>)"></span>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div> -->
-                            <!-- </div>
-                            <div class="modal-footer">
-                              <button type="submit" class="btn btn-primary">Update</button>
-                            </div> -->
                           </form>
                         </div>
                       </div>

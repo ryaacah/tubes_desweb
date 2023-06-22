@@ -226,7 +226,7 @@
   
   .card-header,
   .card-footer {
-    border-color: #ebeef4;
+    border-color: #444444;
     background-color: #625b4b;
     /* color: #798eb3; */
     color: #1a1814;
@@ -274,14 +274,14 @@
   
   /* Accordion */
   .accordion-item {
-    border: 1px solid #ebeef4;
+    border: 1px solid #444444;
   }
   
   .accordion-button:focus {
     outline: 0;
     box-shadow: none;
   }
-  
+   
   .accordion-button:not(.collapsed) {
     color: #1a1814;
     background-color: #f6f9ff;
@@ -332,7 +332,7 @@
   
   /* Bordered Tabs */
   .nav-tabs-bordered {
-    border-bottom: 2px solid #ebeef4;
+    border-bottom: 2px solid #444444;
   }
   
   .nav-tabs-bordered .nav-link {

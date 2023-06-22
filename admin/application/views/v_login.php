@@ -183,9 +183,14 @@
           </div>
           <!-- /.col -->
         </div>
-        <hr style="border:1px solid lightgrey;" class="mb-3 mt-0">
-        <div class="row">
-            <button type="submit" onclick="lsRememberMe()" class="btn btn-secondary btn-block">Log In</button>
+        <hr style="border:1px solid pink;" class="mb-3 mt-0">
+        <div class="col">
+          <button type="submit" onclick="lsRememberMe()" class="btn btn-secondary btn-block">Log In</button>
+        </div>
+        <br>
+        <hr style="border:1px solid pink;" class="mb-3 mt-0">
+        <div class="col">
+          <a class="btn btn-secondary btn-block" href = http://localhost/tubes_desweb>Back</a>
         </div>
       </form>
     </div>

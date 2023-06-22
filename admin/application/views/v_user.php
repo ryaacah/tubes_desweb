@@ -72,7 +72,7 @@
                                 <label for="">Email :</label>
                                 <input type="email" name="email" class="form-control" autocomplete="off" placeholder="Masukkan Email" required value="<?= $row['email'] ?>">
                               </div>
-                              <div class="form-group ">
+                              <!-- <div class="form-group ">
                                 <label for="">Ubah Password :</label>
                                 <div class="input-group">
                                   <input type="password" id="passwordEdit<?= $row['id'] ?>" name="password" class="form-control" autocomplete="off" placeholder="Masukkan Password">
@@ -92,7 +92,7 @@
                                     </div>
                                   </div>
                                 </div>
-                              </div>
+                              </div> -->
                             </div>
                             <div class="modal-footer">
                               <button type="submit" class="btn btn-primary">Update</button>

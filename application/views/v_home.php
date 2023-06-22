@@ -206,14 +206,6 @@
             <div class="input-group mb-3">
               <input name="email"  type="email" class="form-control" value="<?= $this->session->userdata("login_data_admin_hr_user")['email'] ?>" placeholder="Masukkan Email Anda..." autocomplete="off" required>
             </div>
-            <div class="input-group mb-3">
-              <input name="password"  type="password" class="form-control" autocomplete="off" placeholder="Ubah Password">
-            </div>
-          </div>
-          <div class="modal-footer">
-            <div class="d-flex justify-content-between w-100">
-                <button type="submit" class="btn btn-primary">Update</button>
-            </div>
           </div>
         </form>
       </div>

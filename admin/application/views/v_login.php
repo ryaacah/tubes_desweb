@@ -61,7 +61,7 @@
       top: 50px;
       background: #777;
       border-radius: 50%;
-      color: black;
+      color: white;
       box-shadow: 10px 8px 5px 0px rgba(0, 0, 0, 0.6);
     }
 
@@ -80,7 +80,7 @@
       border-radius: 5px;
       box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
       background: #dc3545;
-      color: black;
+      color: white;
       border: 0;
       margin-left: 45px;
       padding: 3px 20px;
@@ -88,7 +88,7 @@
     }
 
     .speech-bubble>a:hover {
-      background: black;
+      background: white;
       color: #dc3545;
       border: 2px solid #dc3545;
     }
@@ -101,7 +101,7 @@
       width: 0;
       height: 0;
       border: 62px solid transparent;
-      border-left-color: #000;
+      border-left-color: #777;
       border-right: 0;
       border-bottom: 0;
       margin-top: -21px;

@@ -346,7 +346,6 @@
           </div>
           <div class="swiper-pagination"></div>
         </div>
-
       </div>
     </section><!-- End Menu Section -->
 
@@ -361,6 +360,7 @@
 
         <div class="events-slider swiper" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper-wrapper">
+
             <!-- start event wedding -->
             <div class="swiper-slide">
               <div class="row event-item">
@@ -370,7 +370,7 @@
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
                   <h3>Wedding Party</h3>
                   <div class="price">
-                    <p><span>$1500</span></p>
+                    <p><span>Rp.60000000</span></p>
                   </div>
                   <p class="fst-italic">
                   A wedding party or wedding party is one of the banquet events that can be sold by a sales and marketing staff. 
@@ -393,7 +393,7 @@
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
                   <h3>Meeting</h3>
                   <div class="price">
-                    <p><span>$500</span></p>
+                    <p><span>Rp.1500000</span></p>
                   </div>
                   <p class="fst-italic">
                   Meetings are the best-selling banquet events ordered by government agencies and companies. 
@@ -416,7 +416,7 @@
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
                   <h3>Custom Gathering</h3>
                   <div class="price">
-                    <p><span>$350</span></p>
+                    <p><span>Rp.700000</span></p>
                   </div>
                   <p class="fst-italic">
                   Events that are usually carried out side by side with meals. Be it lunch or dinner. However, what is often done is dinner gathering, considering that during the 
@@ -436,7 +436,7 @@
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
                   <h3>Custom Exhibition</h3>
                   <div class="price">
-                    <p><span>$200</span></p>
+                    <p><span>Rp.2500000</span></p>
                   </div>
                   <p class="fst-italic">
                   Exhibitions to display works of art or products from a brand which are then offered to invitees who come to an event. 
@@ -459,6 +459,123 @@
 
       </div>
     </section><!-- End Events Section -->
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
+
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Gallery</h2>
+          <p>Some photos from Our Retreat</p>
+        </div>
+      </div>
+
+      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-0">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="<?= base_url() ?>assets/img/gallery/1.png" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="<?= base_url() ?>assets/img/gallery/1.png" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="<?= base_url() ?>assets/img/gallery/4.png" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="<?= base_url() ?>assets/img/gallery/4.png" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="<?= base_url() ?>assets/img/gallery/5.png" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="<?= base_url() ?>assets/img/gallery/5.png" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="<?= base_url() ?>assets/img/gallery/6.png" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="<?= base_url() ?>assets/img/gallery/6.png" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="<?= base_url() ?>assets/img/gallery/8.png" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="<?= base_url() ?>assets/img/gallery/8.png" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="<?= base_url() ?>assets/img/gallery/10.png" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="<?= base_url() ?>assets/img/gallery/10.png" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="<?= base_url() ?>assets/img/gallery/11.png" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="<?= base_url() ?>assets/img/gallery/11.png" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="<?= base_url() ?>assets/img/gallery/13.png" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="<?= base_url() ?>assets/img/gallery/13.png" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>          
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="<?= base_url() ?>assets/img/gallery/14.png" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="<?= base_url() ?>assets/img/gallery/14.png" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="<?= base_url() ?>assets/img/gallery/16.png" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="<?= base_url() ?>assets/img/gallery/16.png" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="<?= base_url() ?>assets/img/gallery/17.png" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="<?= base_url() ?>assets/img/gallery/17.png" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="<?= base_url() ?>assets/img/gallery/18.png" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="<?= base_url() ?>assets/img/gallery/18.png" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Gallery Section -->
 
     <!-- ======= Book A Table Section ======= -->
     <section id="book-a-table" class="book-a-table">
@@ -520,171 +637,6 @@
 
       </div>
     </section><!-- End Book A Table Section -->
-
-    <!-- ======= Gallery Section ======= -->
-    <section id="gallery" class="gallery">
-
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>Gallery</h2>
-          <p>Some photos from Our Retreat</p>
-        </div>
-      </div>
-
-      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row g-0">
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="<?= base_url() ?>assets/img/gallery/1.png" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="<?= base_url() ?>assets/img/gallery/1.png" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <!-- <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="<?= base_url() ?>assets/img/gallery/2.png" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="<?= base_url() ?>assets/img/gallery/2.png" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="<?= base_url() ?>assets/img/gallery/3.png" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="<?= base_url() ?>assets/img/gallery/3.png" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div> -->
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="<?= base_url() ?>assets/img/gallery/4.png" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="<?= base_url() ?>assets/img/gallery/4.png" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="<?= base_url() ?>assets/img/gallery/5.png" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="<?= base_url() ?>assets/img/gallery/5.png" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="<?= base_url() ?>assets/img/gallery/6.png" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="<?= base_url() ?>assets/img/gallery/6.png" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <!-- <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="<?= base_url() ?>assets/img/gallery/7.png" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="<?= base_url() ?>assets/img/gallery/7.png" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div> -->
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="<?= base_url() ?>assets/img/gallery/8.png" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="<?= base_url() ?>assets/img/gallery/8.png" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <!-- <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="<?= base_url() ?>assets/img/gallery/9.png" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="<?= base_url() ?>assets/img/gallery/9.png" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div> -->
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="<?= base_url() ?>assets/img/gallery/10.png" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="<?= base_url() ?>assets/img/gallery/10.png" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="<?= base_url() ?>assets/img/gallery/11.png" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="<?= base_url() ?>assets/img/gallery/11.png" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <!-- <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="<?= base_url() ?>assets/img/gallery/12.png" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="<?= base_url() ?>assets/img/gallery/12.png" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div> -->
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="<?= base_url() ?>assets/img/gallery/13.png" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="<?= base_url() ?>assets/img/gallery/13.png" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>          
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="<?= base_url() ?>assets/img/gallery/14.png" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="<?= base_url() ?>assets/img/gallery/14.png" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <!-- <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="<?= base_url() ?>assets/img/gallery/15.png" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="<?= base_url() ?>assets/img/gallery/15.png" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div> -->
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="<?= base_url() ?>assets/img/gallery/16.png" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="<?= base_url() ?>assets/img/gallery/16.png" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="<?= base_url() ?>assets/img/gallery/17.png" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="<?= base_url() ?>assets/img/gallery/17.png" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="<?= base_url() ?>assets/img/gallery/18.png" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="<?= base_url() ?>assets/img/gallery/18.png" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Gallery Section -->
 
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials section-bg">
@@ -799,7 +751,7 @@
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>hallynime@gmail.com</p>
               </div>
 
               <div class="phone">
@@ -859,7 +811,7 @@
                 A108 Adam Street <br>
                 NY 535022, USA<br><br>
                 <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> halyynime@gmail.com<br>
+                <strong>Email:</strong> hallynime@gmail.com<br>
               </p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -870,9 +822,6 @@
               </div>
             </div>
           </div>
-
-          
-
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
@@ -883,44 +832,17 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
             </ul>
           </div>
-
-          <!-- <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div> -->
-
-          <!-- <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-
-          </div> -->
-
         </div>
       </div>
     </div>
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Restaurantly</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/restaurantly-restaurant-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        &copy; Copyright <strong><span>Hallynime</span></strong>. All Rights Reserved
       </div>
     </div>
-  </footer><!-- End Footer -->
+  </footer>
+  <!-- End Footer -->
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
